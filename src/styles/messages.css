@@ -1,0 +1,100 @@
+.rside{
+    flex: 2;
+    flex-direction: column;
+    overflow: auto;
+    .rinfo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        img{
+            height: 60px;
+            width: 60px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        .subinfo{
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+    }
+    .chats::-webkit-scrollbar{
+        display: none;
+    }
+    .chats{
+        border-top: 1px solid #E0E6ED;
+        border-bottom: 1px solid #E0E6ED;
+        background-image: url('/chatbg.png');
+        background-size: 100%;
+        background-attachment: scroll;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        overflow: auto;
+        gap: 10px;
+        padding: 10px 20px;
+        .message{
+            display: grid;
+            border-radius: 10px;
+            min-width: 100px;
+            box-shadow: 0px 0px 5px 1px;
+            max-width: 400px;
+            padding: 5px;
+            p{
+                margin: 0;
+            }
+            &.receiver{
+                background-color: white;
+                align-self: flex-start;
+                small{
+                    color: black !important;
+                }
+            }
+            &.sender{
+                align-self: flex-end;
+                text-align: right;
+                background-color: rgb(139, 227, 6);
+                small{
+                    color: white !important;
+                }
+            }
+        }
+    }
+    .mbar{
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        font-size: large !important;
+        align-items: center;
+        gap: 10px;
+        background-color: white;
+        input[type="text"]{
+            border: none;
+            outline: none;
+            background-color: #E0E6ED;
+            padding: 5px;
+            border-radius: 5px;
+            flex: 1;
+        }
+        img{
+            height: 50px;
+            width: 70px;
+        }
+    }
+}
+
+
+.icons{
+    font-size: large;
+    cursor: pointer;
+}
+.rside::-webkit-scrollbar{
+    display: none;
+}
+
+@media (max-width:500px) {
+    .message{
+        max-width: 180px !important;
+    }
+}

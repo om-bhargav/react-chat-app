@@ -1,0 +1,36 @@
+.login{
+    display: grid;
+    align-self: center;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: white;
+    place-items: center;
+    width: 400px;
+    gap: 20px;
+    .field{
+        display: grid;
+        width: 100%;
+    }
+    .options{
+        width: 100%;
+        text-align: center;
+        border-top: 1px solid black;
+        .option-icons{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            img{
+                height: 40px;
+                width: 40px;
+                border-radius: 50%;
+                object-fit: cover;
+                cursor: pointer;
+            }
+        }
+    }
+}
+@media (max-width:450px) {
+    .signup{
+        width: 350px;
+    }
+}
