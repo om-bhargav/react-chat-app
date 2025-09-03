@@ -1,12 +1,116 @@
-# React + Vite
+# React Chat App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern real-time chat application built with **React** and **Vite**. This project provides a fast and responsive interface for live chatting, with clean code organization and extensible architecture.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Demo
 
-## Expanding the ESLint configuration
+https://harmonious-croissant-e223b0.netlify.app/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- 🔥 Real-time messaging (one-to-one or group chat)  
+- 🔐 User authentication (Email/Password, OAuth, or custom auth)  
+- 📱 Fully responsive design (desktop & mobile)  
+- 🖼️ File and image sharing in chats  
+- 💬 Typing indicators and online status  
+- ⚡ Built with Vite for blazing-fast development and builds  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, Vite  
+- **State Management:** React Context API (depending on implementation)  
+- **Backend/Realtime:** Firebase *(adjust based on your setup)*  
+- **Styling:** Bootstrap / CSS Modules / Styled Components  
+- **Linting:** ESLint (preconfigured with Vite template)  
+
+---
+
+## 📂 Folder Structure
+
+react-chat-app/
+├── public/ # Static assets
+├── src/
+│ ├── components/ # Reusable React components
+│ ├── contexts/ # Context API providers
+│ ├── pages/ # Page-level components (Login, Chat, etc.)
+│ ├── services/ # API or WebSocket/Firebase integration
+│ ├── styles/ # Global styles or Tailwind setup
+│ ├── App.jsx # Root application component
+│ └── main.jsx # Application entry point
+├── .env # Environment variables
+├── .gitignore
+├── package.json
+├── vite.config.js
+└── README.md
+
+yaml
+Copy code
+
+---
+
+## ⚙️ Getting Started
+
+### ✅ Prerequisites
+
+- **Node.js** (>=16 recommended)  
+- **npm** or **yarn**
+
+### 🔧 Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/om-bhargav/react-chat-app.git
+   cd react-chat-app
+Install dependencies:
+
+bash
+Copy code
+npm install
+# or
+yarn install
+Create a .env file in the root directory and add required environment variables (see below).
+
+Start the development server:
+
+bash
+Copy code
+npm run dev
+# or
+yarn dev
+🔑 Environment Variables
+Create a .env file in the root folder. Example for Firebase setup:
+
+ini
+Copy code
+VITE_FIREBASE_API_KEY=your-api-key
+VITE_FIREBASE_AUTH_DOMAIN=your-auth-domain
+VITE_FIREBASE_PROJECT_ID=your-project-id
+VITE_FIREBASE_STORAGE_BUCKET=your-storage-bucket
+VITE_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id
+VITE_FIREBASE_APP_ID=your-app-id
+(Update keys based on your backend service.)
+
+📜 Available Scripts
+Command	Description
+npm run dev	Start development server with HMR
+npm run build	Build the app for production
+npm run preview	Preview production build locally
+npm run lint	Run ESLint for code linting and formatting
+
+🤝 Contributing
+Contributions are always welcome!
+
+📄 License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+📬 Contact
+Author: Om Bhargav
+GitHub: https://github.com/om-bhargav
+Project Link: https://harmonious-croissant-e223b0.netlify.app/
