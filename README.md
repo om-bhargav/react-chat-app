@@ -49,11 +49,6 @@ react-chat-app/
 ├── vite.config.js
 └── README.md
 
-yaml
-Copy code
-
----
-
 ## ⚙️ Getting Started
 
 ### ✅ Prerequisites
@@ -68,22 +63,7 @@ Copy code
    ```bash
    git clone https://github.com/om-bhargav/react-chat-app.git
    cd react-chat-app
-Install dependencies:
 
-bash
-Copy code
-npm install
-# or
-yarn install
-Create a .env file in the root directory and add required environment variables (see below).
-
-Start the development server:
-
-bash
-Copy code
-npm run dev
-# or
-yarn dev
 🔑 Environment Variables
 Create a .env file in the root folder. Example for Firebase setup:
 
