@@ -80,6 +80,7 @@ react-chat-app/
 🔑 Environment Variables
 
 Create a .env file in the root folder. Example for Firebase setup:
+
 VITE_FIREBASE_API_KEY=your-api-key
 
 VITE_FIREBASE_AUTH_DOMAIN=your-auth-domain
