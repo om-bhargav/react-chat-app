@@ -94,10 +94,15 @@ VITE_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id
 VITE_FIREBASE_APP_ID=your-app-id
 
 📜 Available Scripts
+
 Command	Description
+
 npm run dev	Start development server with HMR
+
 npm run build	Build the app for production
+
 npm run preview	Preview production build locally
+
 npm run lint	Run ESLint for code linting and formatting
 
 🤝 Contributing
