@@ -111,7 +111,11 @@ Contributions are always welcome!
 📄 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
+
 📬 Contact
+
 Author: Om Bhargav
+
 GitHub: https://github.com/om-bhargav
+
 Project Link: https://harmonious-croissant-e223b0.netlify.app/
