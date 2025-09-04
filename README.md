@@ -6,7 +6,7 @@ A modern real-time chat application built with **React** and **Vite**. This proj
 
 ## 🚀 Demo
 
-https://harmonious-croissant-e223b0.netlify.app/
+https://singular-cactus-86f187.netlify.app/
 
 ---
 
@@ -118,4 +118,4 @@ Author: Om Bhargav
 
 GitHub: https://github.com/om-bhargav
 
-Project Link: https://harmonious-croissant-e223b0.netlify.app/
+Project Link: https://singular-cactus-86f187.netlify.app/
